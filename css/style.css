@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+   
+}
+.sidebar {
+background-color: #1992D4;
+color: #ffffff;
+grid-column: 1;
+grid-row: 1 / span 2;
+display: grid;
+min-width: 160px;
+}
+.image-dashboard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) repeat(2, 2fr);
+    align-items: center;
+    margin-left: 20px;
+}
+.image-dashboard > img {
+    width: 40px;
+    height: 40px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.sidebar-content1 {
+    display: grid;
+}
+.sidebar-icon {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) repeat(2, 2fr);
+    align-items: center;
+    margin-left: 20px;
+}
+.sidebar-content2 {
+    margin-top: 40px;
+}
+.header {
+    grid-column: 2 / span 3;
+    background-color: blue;
+}
+
